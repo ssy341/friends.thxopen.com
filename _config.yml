@@ -1,0 +1,22 @@
+baseurl:
+#baseurl: /www
+#port: 341
+url: http://friends.thxopen.com
+encoding: utf-8
+exclude: ["README.md","*.iml","template"]
+#destination: ./_site
+#destination: C:\code\xampp\htdocs
+email: keith@thxopen.com
+github: https://github.com/ssy341/friends.thxopen.com
+
+# page config
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "/script/page:num/"
+
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+#markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+sitename: Friends TV show
